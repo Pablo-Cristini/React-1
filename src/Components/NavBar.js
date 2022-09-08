@@ -1,18 +1,20 @@
 import '../App.css';
 import './styles.css';
 import logo from '../img/logo.png';
+import LocalMallIcon from './CartWidget/CartWidget';
 
-export const Navegacion = () =>{
+const NavBar = () =>{
     return (
     <header>
     <img className='imgLogo' src= { logo } alt='logo' />
+    <LocalMallIcon/>
     <h1 className='title'>Soy un Titulo</h1>
-    <h2 className='navegacion'></h2>
     <nav className='nav'>
-        <a className='tags' href=''>Inicio</a>
-        <a className='tags' href=''>Galeria</a>
-        <a className='tags' href=''>Nosotros</a>
+        <a className='tags' href='www.youtube.com'>Inicio</a>
+        <a className='tags' href='www.youtube.com'>Galeria</a>
+        <a className='tags' href='www.youtube.com'>Nosotros</a>
     </nav>
     </header>
     )
 }
+export default NavBar;
