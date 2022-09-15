@@ -1,0 +1,21 @@
+export const products = [
+    {
+        id:1,
+        product:"zapatillas",
+        img:"../img/zapatillas.jfif",
+        brand:"Adidas",
+        price:15000
+    },
+    {
+        id:2,
+        product:"remera",
+        brand:"Nike",
+        price:5000
+    },
+    {
+        id:3,
+        product:"gorra",
+        brand:"Puma",
+        price:3500
+    },
+]
