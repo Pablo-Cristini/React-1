@@ -24,3 +24,16 @@ header {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.lala {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
