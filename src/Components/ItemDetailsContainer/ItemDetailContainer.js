@@ -3,11 +3,17 @@ import { CircularProgress } from "@mui/material";
 import '../../App.css';
 import '../styles.css';
 import ItemDetail from "./ItemDetail";
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = ({greeting}) => {
 
+    let { IdCategoria } = useParams();
+
     const [productos, setProductos] = useState({})
     const [loading, setLoading] = useState(true)
+
+    const URL_BASE = 'https://api.storerestapi.com/products'
+    const URL_CATEGORY = 'https://api.storerestapi.com/categories/'
 
     useEffect(() => {
 
